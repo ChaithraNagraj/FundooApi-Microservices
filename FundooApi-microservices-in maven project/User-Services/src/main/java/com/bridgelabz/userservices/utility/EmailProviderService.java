@@ -54,7 +54,7 @@ public class EmailProviderService{
 
 			mimeMessage.addHeader("Content-Transfer-Encoding", "8bit");
 
-			mimeMessage.setFrom(new InternetAddress(fromEmail,"Mr.Sandeep"));
+			mimeMessage.setFrom(new InternetAddress(fromEmail,"chaithra"));
 
 			mimeMessage.setRecipient(Message.RecipientType.TO, new InternetAddress(emailContact));
 
